@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require './lib/chess_validator/chess_validator'
+
+ChessValidator.run('simple.board','simple.moves')
+
